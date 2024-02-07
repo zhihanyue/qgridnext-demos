@@ -1,12 +1,16 @@
-name: qgrid-environment
+name: qgridnext-demo
 channels:
   - conda-forge
   - defaults
 dependencies:
+  - python=3.11
+  - ipywidgets=8.1.1
+  - pandas=2.2.0
   - jupyterlab=4.1.0
   - pandas-datareader>=0.5.0
   - matplotlib>=2.1.1
+  - ipympl>=0.9
   - pip
   - pip:
     - qgridnext==2.0.0rc0
-
+    
